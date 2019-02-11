@@ -1,0 +1,94 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  margin: 0 auto;
+ }
+
+ nav {
+  position: fixed;
+  background-color: #64C174;
+  width:420px;
+  box-sizing: border-box;
+  display: inline-block;
+  height:77px;
+  background-repeat: no-repeat;
+}
+
+ .arrow-left {
+   padding-left: 4%;
+   padding-top: 5%;
+ }
+
+h1 {
+  font-size: 2em;
+  font-weight: 400;
+  color: #000;
+}
+
+.bus-stop {
+  box-sizing: border-box;
+  display: inline-block;
+  width:85%;
+  padding-bottom: 7%;
+}
+
+ .bus-list {
+   padding-top:40px;
+   width: 100%;
+ }
+
+ .map-img {
+   margin: 10px 0;
+ }
+
+h1 {
+  font-size: 1.1em;
+  font-weight:450;
+  box-sizing: border-box;
+  display: block;
+  line-height: normal;
+  padding-left: 2%;
+  padding-right:0%;
+  border-bottom: 5px;
+  color: #000
+}
+
+.content {
+  border-radius: 10px 10px 0px 0px;
+  background-color: #CDCED2;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%
+  padding: 3%;
+  padding-top: 10%;
+}
+
+.destination {
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #CDCED2;
+  width: 100%;
+  padding-left: 5%;
+  padding-top: 0%;
+  line-height: 75px;
+}
+
+
+.bus-number {
+  float: left;
+  margin: -7px 10px 0 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #fff;
+  background-color: #F6D254;
+  line-height: 50px;
+  text-align: center;
+  padding-top: 7px;
+}
